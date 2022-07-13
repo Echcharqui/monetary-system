@@ -1,0 +1,21 @@
+{
+  "name": "monetary-system",
+  "version": "1.0.0",
+  "description": "NAN",
+  "main": "./src/api.js",
+  "repository": "https://github.com/Echcharqui/monetary-system.git",
+  "author": "echcharqui hamza",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./src/api.js",
+    "dev": "npx nodemon",
+    "eslint:report": "eslint src --ext .js",
+    "eslint:fix": "eslint --fix src --ext .js"
+  },
+  "devDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.19"
+  }
+}
